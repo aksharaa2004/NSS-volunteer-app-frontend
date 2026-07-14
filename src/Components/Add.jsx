@@ -60,7 +60,7 @@ const Add = () => {
                         </div>
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                             <label htmlFor="" className="form-label">year of study</label>
-                            <input type="date" className="form-control" name='year_of_study' value={input.year_of_study} onChange={inputHandler}/>
+                            <input type="text" className="form-control" name='year_of_study' value={input.year_of_study} onChange={inputHandler}/>
                         </div>
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                             <label htmlFor="" className="form-label">camp name</label>
